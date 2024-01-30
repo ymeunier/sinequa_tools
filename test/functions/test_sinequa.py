@@ -63,7 +63,3 @@ class Test(TestCase):
     def test_call_sinequa_action(self):
         # FIXME : a finir !
         self.assertTrue(True)
-
-            if 'fr' in dictionnaire:
-                print('\t-> ', dictionnaire['fr'].replace(':', '').replace('_', ' '), ' : ',
-                      emoji.emojize(dictionnaire['fr'], language='fr'))
